@@ -1,0 +1,20 @@
+{
+  "name": "pdf-upload-api",
+  "version": "1.0.0",
+  "description": "PDF upload API endpoint",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^2.1.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
