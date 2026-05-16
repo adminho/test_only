@@ -1,0 +1,4 @@
+node_modules/
+.env
+# Never commit uploaded files
+uploads/
