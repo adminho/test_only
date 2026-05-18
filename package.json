@@ -1,0 +1,19 @@
+{
+  "name": "pdf-upload-api",
+  "version": "1.0.0",
+  "description": "PDF upload API with filename sanitization",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --testEnvironment=node --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
