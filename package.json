@@ -1,0 +1,17 @@
+{
+  "name": "teestxxxxxxx-upload-metadata",
+  "version": "1.0.0",
+  "description": "Upload metadata persistence service",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "tsx src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
