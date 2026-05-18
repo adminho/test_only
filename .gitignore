@@ -1,0 +1,6 @@
+node_modules/
+dist/
+storage/
+uploads.db
+*.db
+uploads-metadata.json
